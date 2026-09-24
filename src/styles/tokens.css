@@ -1,0 +1,117 @@
+/* Mind Mate Design Tokens
+   Calm, Human, Accessible Healthcare Palette
+   Elderly-First Contrast and Sizing
+*/
+
+:root {
+  /* Color Palette - Healthcare Restrained Light System */
+  --color-bg-app: #F8F9FA;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-surface-elevated: #FFFFFF;
+  --color-bg-subtle: #F1F4F7;
+  --color-bg-patient: #FAF9F6; /* Gentle warm tinted surface for patient ease */
+  
+  --color-navy: #132E4F;
+  --color-navy-dark: #0A1C33;
+  --color-navy-light: #204572;
+  --color-navy-soft: #EAF0F6;
+
+  --color-teal: #1B665F;
+  --color-teal-dark: #134B46;
+  --color-teal-light: #268C83;
+  --color-teal-soft: #E8F4F2;
+
+  --color-success: #1E6E38;
+  --color-success-soft: #E9F7EE;
+  --color-success-border: #99DDB1;
+
+  --color-warning: #9A5B00;
+  --color-warning-soft: #FEF6E9;
+  --color-warning-border: #F7D49D;
+
+  --color-alert: #A82323;
+  --color-alert-soft: #FDECEC;
+  --color-alert-border: #F7B5B5;
+
+  --color-border: #D8E0E8;
+  --color-border-subtle: #E8EFF5;
+  --color-border-strong: #B0BFCF;
+
+  --color-text-primary: #111827;
+  --color-text-secondary: #374151;
+  --color-text-muted: #4B5563;
+  --color-text-on-navy: #FFFFFF;
+  --color-text-on-teal: #FFFFFF;
+
+  /* Convenient Aliases for Component Contrast */
+  --primary: var(--color-teal);
+  --primary-dark: var(--color-teal-dark);
+  --border: var(--color-border);
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+  --text-muted: var(--color-text-muted);
+  --surface-patient: var(--color-bg-patient);
+  --bg-surface: var(--color-bg-surface);
+
+  /* Typography Scale */
+  --font-family-base: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Elderly-First Sizing */
+  --text-elderly-hero: 32px;
+  --text-elderly-title: 26px;
+  --text-elderly-instruction: 22px;
+  --text-elderly-body: 19px;
+  --text-elderly-button: 19px;
+  --text-elderly-caption: 16px;
+
+  /* Caregiver / Dashboard Sizing */
+  --text-cg-title: 24px;
+  --text-cg-section: 18px;
+  --text-cg-body: 15px;
+  --text-cg-caption: 13px;
+
+  /* Spacing System (Scale: 4, 8, 12, 16, 24, 32, 40, 48, 64) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 48px;
+  --space-9: 64px;
+
+  /* Line Heights */
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* Elevation - Grounded, Subtle, Never Holographic */
+  --shadow-sm: 0 1px 2px rgba(10, 28, 51, 0.05);
+  --shadow-md: 0 3px 8px rgba(10, 28, 51, 0.08);
+  --shadow-card: 0 1px 3px rgba(10, 28, 51, 0.05), 0 0 0 1px var(--color-border);
+  --shadow-modal: 0 8px 24px rgba(10, 28, 51, 0.14);
+
+  /* Radius System (8px Small, 12px Primary Cards, 16px Large Containers) */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Icon Scale Tokens (16px secondary, 18px normal, 20px nav, 24px primary, 32px stimulus) */
+  --icon-xs: 16px;
+  --icon-sm: 18px;
+  --icon-md: 20px;
+  --icon-lg: 24px;
+  --icon-xl: 32px;
+
+  /* Interactive Button Heights */
+  --btn-height-cg: 42px;
+  --btn-height-patient: 52px;
+  --btn-height-patient-lg: 58px;
+  --touch-target-min: 48px;
+
+  /* Layout Widths */
+  --max-patient-width: 640px;
+  --max-dashboard-width: 1200px;
+}

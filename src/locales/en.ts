@@ -1,0 +1,151 @@
+export const en = {
+  appName: "Mind Mate",
+  tagline: "Adaptive cognitive support, designed for everyday life.",
+  goodMorning: "Good morning",
+  welcomeSub: "Your daily cognitive care session is ready.",
+  beginSession: "Begin Today's Session",
+  voiceAvailable: "Voice assistance available",
+  voiceListen: "Listen to Question",
+  voiceSpeak: "Speak Answer",
+  voiceListening: "Listening...",
+  voiceFallback: "Speech recognition unavailable in this browser. Please tap an answer.",
+  
+  // Status
+  connected: "Connected",
+  offlineMode: "Working Offline",
+  offlineBadge: "Offline ready",
+  offlineSimNotice: "OFFLINE MODE ENABLED. No internet connection required. Your activity data is being saved on this device.",
+  syncNow: "Sync Now",
+  syncing: "Syncing with caregiver portal...",
+  syncComplete: "Synchronization complete",
+  lastSynced: "Last synced",
+  justNow: "Just now",
+
+  // Navigation
+  navHome: "Home",
+  navActivities: "Activities",
+  navMemory: "Memory",
+  navReminders: "Reminders",
+  navCompanion: "Companion",
+  navCaregiver: "Caregiver View",
+  navDemoControl: "Demo Suite",
+
+  // Companion
+  companionTitle: "Saathi - Daily Memory Companion",
+  companionSubtitle: "Talk and interact to remember your day, check routines, or share your thoughts.",
+  companionHeroAction: "Talk with Saathi",
+  companionHeroPrompt: "Speak or ask anything about your day, medicines, and family",
+
+  // Home Plan
+  todaysPlan: "Today's Cognitive Plan",
+  adaptiveNotice: "Your activities are adjusted based on recent performance.",
+  memoryRecall: "Memory Recall",
+  attentionGame: "Attention Focus",
+  patternGame: "Pattern Recognition",
+  routineRecall: "Daily Routine Recall",
+  minutes: "minutes",
+  ready: "Ready",
+  remainingToday: "remaining today",
+  startTodayPlan: "Start Today's Plan",
+
+  // Games
+  rememberThese: "Remember these objects",
+  lookCarefully: "Take a moment to remember these items.",
+  whichDidYouSee: "Which objects did you see?",
+  selectYourAnswers: "Tap the items you remember seeing:",
+  submitAnswers: "Confirm My Answers",
+  nextActivity: "Continue",
+  
+  // Attention Game
+  attentionInstruction: "Tap ONLY when you see the target symbol:",
+  targetLabel: "Blue Circle",
+  tapButton: "TAP NOW",
+  tapCorrect: "Great reaction!",
+  tapMissed: "Target missed",
+  tapFalse: "Not the target",
+
+  // Pattern
+  patternInstruction: "What comes next in the pattern?",
+
+  // Routine
+  routineTitle: "Morning Routine",
+  routinePrompt: "After morning tea, what usually comes next?",
+
+  // Results
+  sessionComplete: "Session Complete",
+  wellDone: "Well done!",
+  accuracy: "Accuracy",
+  responseTime: "Response Time",
+  completion: "Completion",
+  responseSpeed: "Response Speed",
+  speedGood: "Good & steady",
+  speedFast: "Prompt",
+  speedDeliberate: "Deliberate",
+  nextActivityAdjusted: "Your next activity has been adjusted.",
+  returnHome: "Return to Home",
+
+  // Reminders
+  remindersTitle: "Today's Reminders",
+  hydrationAlert: "Time for hydration. Please drink some water.",
+  medicineReminder: "Morning blood pressure medicine",
+  afternoonWalk: "Afternoon garden walk",
+  doctorAppt: "Dr. Baruah follow-up (Friday 10:00 AM)",
+  done: "Done",
+  remindLater: "Remind me later",
+  completedStatus: "Completed",
+  pendingStatus: "Pending",
+
+  // Personal Memory
+  personalMemoryTitle: "Personal Memories",
+  personalMemorySubtitle: "Familiar people, places, household items, and daily routines.",
+  peopleCategory: "Family & Friends",
+  placesCategory: "Familiar Places",
+  objectsCategory: "Household Objects",
+  routinesCategory: "Daily Routines",
+
+  // Disclaimer
+  disclaimer: "Mind Mate is a cognitive-support and caregiver-assistance prototype. It does not diagnose or replace professional medical care.",
+
+  // Enhanced UI & Multi-Patient Navigation
+  todaysActivity: "Today's Activity",
+  level: "Level",
+  allCaughtUp: "All caught up for today",
+  view: "View",
+  otherActivities: "Other Cognitive Activities",
+  start: "Start",
+  workingMemory: "Working Memory",
+  focusVigilance: "Focus & Vigilance",
+  dailyRoutineCategory: "Daily Routine",
+  patternLogic: "Pattern Logic",
+  adaptiveSupportTagline: "Adaptive Cognitive Support",
+  offline: "Offline",
+  online: "Online",
+  allPatientsOverview: "All Patients Overview",
+  selectPatient: "Select Patient Account",
+  allPatients: "All 3 Patients",
+  patientAccount: "Patient Account",
+  caregiverAccount: "Caregiver Account",
+  remindersAssistanceSub: "Assistance for medicines, hydration, and daily activities.",
+  personalMemoryAssistanceSub: "Familiar people, places, household items, and daily routines.",
+  showingActivities: "Showing Activities",
+  choosePathway: "CHOOSE A DEMONSTRATION PATHWAY",
+  curatedOnly: "Show Curated Only",
+  viewAllActivities: "View All 21 Activities",
+  disclaimerNotice: "Different support pathways emphasize different cognitive activities. This prototype does not diagnose medical conditions.",
+  overview: "Overview",
+  history: "History",
+  memories: "Memories",
+  memoriesBadge: "Memories",
+  personalized: "Personalized",
+  minuteShort: "min",
+  levels: "Levels",
+  librarySubtitle: "Choose any cognitive activity from your daily library, or filter by demonstration pathway.",
+  personalMemoryTitleBase: "Personal Memories",
+  reminders: "Reminders",
+  addReminder: "Add Reminder",
+  save: "Save",
+  cancel: "Cancel",
+  caregiverPortal: "Caregiver Portal",
+  goodMorningCaregiver: "Good morning",
+  awaitingPatient: "Awaiting patient"
+};

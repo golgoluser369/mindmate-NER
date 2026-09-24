@@ -1,0 +1,67 @@
+PERSONALIZATION RANDOM FOREST - VERSION 2
+
+Dataset
+-------
+Rows: 30000
+Features: 12
+Train rows: 24000
+Test rows: 6000
+
+Target distribution
+-------------------
+recommendation
+0    9271
+1    7345
+2    5304
+3    4153
+4    3927
+
+Test metrics
+------------
+Accuracy:          0.8078 (80.78%)
+Balanced accuracy: 0.7699 (76.99%)
+Weighted F1:       0.8040
+
+3-fold CV accuracy
+------------------
+Scores: [0.8034 0.8036 0.7997]
+Mean:   0.8022 (80.22%)
+Std:    0.0018
+
+Classification report
+---------------------
+              precision    recall  f1-score   support
+
+           0     0.9191    0.9320    0.9255      1854
+           1     0.7491    0.8679    0.8042      1469
+           2     0.7918    0.7634    0.7774      1061
+           3     0.7187    0.5319    0.6113       831
+           4     0.7590    0.7541    0.7565       785
+
+    accuracy                         0.8078      6000
+   macro avg     0.7875    0.7699    0.7750      6000
+weighted avg     0.8063    0.8078    0.8040      6000
+
+
+Feature importance
+------------------
+accuracy               0.187216
+recent_performance     0.163205
+fatigue_proxy          0.127016
+difficulty             0.120938
+engagement_score       0.105624
+memory_score           0.088411
+response_time          0.060390
+attention_score        0.055109
+completion             0.038633
+hint_usage             0.028665
+game_type              0.013850
+attempts               0.010944
+
+Important limitation
+--------------------
+This is an initial personalization model trained on synthetic gameplay telemetry
+and simulated recommendation policy labels. It is NOT a clinical/diagnostic
+model and the reported metrics are not validation on real elderly users.
+The intended next step is retraining/validation on anonymized real app telemetry
+after sufficient real-world usage data is collected.

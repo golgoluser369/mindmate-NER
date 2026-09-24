@@ -1,0 +1,151 @@
+export const hi = {
+  appName: "माइंड मेट (Mind Mate - स्मृति)",
+  tagline: "दैनिक जीवन के लिए अनुकूलित संज्ञानात्मक देखभाल।",
+  goodMorning: "शुभ प्रभात",
+  welcomeSub: "आपका आज का सत्र तैयार है।",
+  beginSession: "आज का सत्र शुरू करें",
+  voiceAvailable: "आवाज सहायता उपलब्ध है",
+  voiceListen: "प्रश्न सुनें",
+  voiceSpeak: "उत्तर बोलें",
+  voiceListening: "सुन रहे हैं...",
+  voiceFallback: "आवाज़ पहचान समर्थित नहीं है। कृपया उत्तर पर स्पर्श करें।",
+  
+  // Status
+  connected: "कनेक्टेड (ऑनलाइन)",
+  offlineMode: "ऑफलाइन मोड",
+  offlineBadge: "ऑफलाइन तैयार",
+  offlineSimNotice: "ऑफलाइन मोड सक्रिय। इंटरनेट की आवश्यकता नहीं है। आपका डेटा इस डिवाइस पर सुरक्षित सहेजा जा रहा है।",
+  syncNow: "सिंक करें",
+  syncing: "केयरगिवर के साथ सिंक हो रहा है...",
+  syncComplete: "सिंक्रनाइज़ेशन पूर्ण हुआ",
+  lastSynced: "अंतिम सिंक",
+  justNow: "अभी-अभी",
+
+  // Navigation
+  navHome: "मुख्य पृष्ठ",
+  navActivities: "गतिविधियाँ",
+  navMemory: "स्मृतियाँ",
+  navReminders: "स्मरण (रिमाइंडर)",
+  navCompanion: "साथी",
+  navCaregiver: "केयरगिवर डैशबोर्ड",
+  navDemoControl: "डेमो सुइट",
+
+  // Companion
+  companionTitle: "साथी - दैनिक स्मृति व संवाद",
+  companionSubtitle: "दिनचर्या याद करने, दवाई का समय जानने या मन की बात साझा करने के लिए साथी से बात करें।",
+  companionHeroAction: "साथी से बात करें",
+  companionHeroPrompt: "आज की योजना, दवाई या परिवार के बारे में बोलकर पूछें",
+
+  // Home Plan
+  todaysPlan: "आज की संज्ञानात्मक योजना",
+  adaptiveNotice: "आपकी गतिविधियाँ हालिया प्रदर्शन के अनुसार व्यवस्थित की जाती हैं।",
+  memoryRecall: "स्मृति अभ्यास (याददाश्त)",
+  attentionGame: "एकाग्रता खेल",
+  patternGame: "पैटर्न पहचान",
+  routineRecall: "दैनिक दिनचर्या स्मरण",
+  minutes: "मिनट",
+  ready: "तैयार",
+  remainingToday: "आज शेष हैं",
+  startTodayPlan: "आज का सत्र शुरू करें",
+
+  // Games
+  rememberThese: "इन वस्तुओं को याद रखें",
+  lookCarefully: "इन वस्तुओं को ध्यान से देखें और याद रखें।",
+  whichDidYouSee: "आपने कौन सी वस्तुएं देखी थीं?",
+  selectYourAnswers: "याद की गई वस्तुओं पर स्पर्श करें:",
+  submitAnswers: "उत्तर की पुष्टि करें",
+  nextActivity: "आगे बढ़ें",
+  
+  // Attention Game
+  attentionInstruction: "केवल तभी स्पर्श करें जब आपको यह लक्ष्य दिखे:",
+  targetLabel: "नीला वृत्त (Blue Circle)",
+  tapButton: "अभी दबाएं",
+  tapCorrect: "सटीक प्रतिक्रिया!",
+  tapMissed: "लक्ष्य छूट गया",
+  tapFalse: "यह लक्ष्य नहीं था",
+
+  // Pattern
+  patternInstruction: "पैटर्न में अगला क्या आएगा?",
+
+  // Routine
+  routineTitle: "सुबह की दिनचर्या",
+  routinePrompt: "सुबह की चाय के बाद आमतौर पर क्या आता है?",
+
+  // Results
+  sessionComplete: "सत्र संपन्न",
+  wellDone: "बहुत बढ़िया!",
+  accuracy: "सटीकता",
+  responseTime: "प्रतिक्रिया समय",
+  completion: "पूर्णता दर",
+  responseSpeed: "गति",
+  speedGood: "स्थिर और अच्छी",
+  speedFast: "त्वरित",
+  speedDeliberate: "विचारशील",
+  nextActivityAdjusted: "आपकी अगली गतिविधि अनुकूलित कर दी गई है।",
+  returnHome: "मुख्य पृष्ठ पर जाएं",
+
+  // Reminders
+  remindersTitle: "आज के रिमाइंडर",
+  hydrationAlert: "पानी पीने का समय हो गया है। कृपया थोड़ा पानी पिएं।",
+  medicineReminder: "सुबह की बीपी की दवाई",
+  afternoonWalk: "दोपहर में बगीचे की सैर",
+  doctorAppt: "डॉ. बरुआ से परामर्श (शुक्रवार सुबह 10:00 बजे)",
+  done: "हो गया",
+  remindLater: "बाद में याद दिलाएं",
+  completedStatus: "पूर्ण",
+  pendingStatus: "लंबित",
+
+  // Personal Memory
+  personalMemoryTitle: "निजी स्मृतियाँ",
+  personalMemorySubtitle: "परिचित परिजन, प्रिय स्थान, घरेलू वस्तुएं और दैनिक दिनचर्या।",
+  peopleCategory: "परिवार व मित्र",
+  placesCategory: "परिचित स्थान",
+  objectsCategory: "घरेलू वस्तुएं",
+  routinesCategory: "दिनचर्या",
+
+  // Disclaimer
+  disclaimer: "Mind Mate संज्ञानात्मक समर्थन और देखभालकर्ता सहायता हेतु एक प्रोटोटाइप है। यह चिकित्सीय निदान या डॉक्टर का विकल्प नहीं है।",
+
+  // Enhanced UI & Multi-Patient Navigation
+  todaysActivity: "आज की गतिविधि",
+  level: "स्तर",
+  allCaughtUp: "आज के सभी कार्य पूरे हो चुके हैं",
+  view: "देखें",
+  otherActivities: "अन्य संज्ञानात्मक गतिविधियाँ",
+  start: "शुरू करें",
+  workingMemory: "सक्रिय स्मृति",
+  focusVigilance: "एकाग्रता और सतर्कता",
+  dailyRoutineCategory: "दैनिक दिनचर्या",
+  patternLogic: "पैटर्न और तर्क",
+  adaptiveSupportTagline: "अनुकूलनशील संज्ञानात्मक सहयोग",
+  offline: "ऑफ़लाइन",
+  online: "ऑनलाइन",
+  allPatientsOverview: "सभी मरीज़ों का संपूर्ण विवरण",
+  selectPatient: "मरीज़ का खाता चुनें",
+  allPatients: "सभी 3 मरीज़",
+  patientAccount: "मरीज़ का खाता",
+  caregiverAccount: "देखभालकर्ता खाता",
+  remindersAssistanceSub: "दवाएं, जलपान और दैनिक कार्यों की याद दिलाने में सहायता।",
+  personalMemoryAssistanceSub: "परिचित परिजन, प्रिय स्थान, घरेलू वस्तुएं और दैनिक दिनचर्या।",
+  showingActivities: "गतिविधियां प्रदर्शित",
+  choosePathway: "प्रदर्शन मार्ग चुनें",
+  curatedOnly: "केवल चयनित दिखाएं",
+  viewAllActivities: "सभी 21 गतिविधियां देखें",
+  disclaimerNotice: "विभिन्न सहायता मार्ग विभिन्न मानसिक गतिविधियों पर केंद्रित हैं। यह कोई चिकित्सीय निदान नहीं है।",
+  overview: "अवलोकन",
+  history: "सत्र इतिहास",
+  memories: "निजी स्मृतियाँ",
+  memoriesBadge: "स्मृतियाँ",
+  personalized: "निजीकृत",
+  minuteShort: "मिनट",
+  levels: "स्तर",
+  librarySubtitle: "अपनी दैनिक लाइब्रेरी से कोई भी संज्ञानात्मक गतिविधि चुनें या सहायता मार्ग के अनुसार देखें।",
+  personalMemoryTitleBase: "निजी स्मृतियाँ",
+  reminders: "अनुस्मारक",
+  addReminder: "नया अनुस्मारक जोड़ें",
+  save: "सहेजें",
+  cancel: "रद्द करें",
+  caregiverPortal: "देखभालकर्ता पोर्टल",
+  goodMorningCaregiver: "शुभ प्रभात",
+  awaitingPatient: "मरीज़ की प्रतीक्षा में"
+};

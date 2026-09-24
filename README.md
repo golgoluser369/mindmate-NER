@@ -4,11 +4,7 @@
 
 > *"The game is not the product. The adaptive cognitive journey connecting the person, their daily routines, and their caregiver is the product."*
 
-### 🌐 Live Production Deployments
-- **Vercel Production URL**: [https://ner-mocha.vercel.app/](https://ner-mocha.vercel.app/)
-- **GitHub Pages Live App**: [https://jahwanthpulugujju-create.github.io/NER/](https://jahwanthpulugujju-create.github.io/NER/)
-- **GitHub Codebase**: [https://github.com/jahwanthpulugujju-create/NER](https://github.com/jahwanthpulugujju-create/NER)
-
+Live production deploy: https://mindmate-ner-care.web.app
 ---
 
 ## Overview
